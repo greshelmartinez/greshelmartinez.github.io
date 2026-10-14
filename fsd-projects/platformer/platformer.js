@@ -42,9 +42,10 @@ createPlatform(400, 500, 150, 20, "red");
 createPlatform(700, 420, 200, 20, "lime");  
 createPlatform(900, 320, 120, 20, "dodgerblue");
 createPlatform(1150, 220, 100, 20, "magenta");
-
-
-
+createPlatform(500, 0, 20, 290);
+createPlatform(1350, 400, 50, 50, "red");
+createPlatform(600,300,175,10);
+createPlatform(500,200,175,10);
 
 
  
