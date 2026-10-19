@@ -72,8 +72,17 @@
          var positionX = 0;
          var points = 0;
         var speed = 10;
+        var positionY;
+        var speedY;
+       var boardHeight = 
+       jQuery(window). height();
+       var randNum = 100;
+       var colorStr = 250;
+       var randomNumberBetween0and10 = 10;
+       var colorStr = "rgb(50, 25, 250)";
+        box.css("background-color", colorStr);
 
-
+      
 
         /**
          * This Function will be called 20 times/second.
@@ -91,7 +100,7 @@
           else if (positionX < 0) {
             speed *= -1;
           }
-          
+          moveBoxTo(positionX, positionY);
 
           
         }
